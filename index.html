@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Profile card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-image:url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);background-position:left top,right bottom;background-repeat:no-repeat;" class="bg-darkCyan absolute flex flex-col justify-center items-center w-full h-full">
+  <main class="max-w-[375px] w-[90%] rounded-[15px]">
+    <div class="bg-patternCard w-full h-[10rem] rounded-t-[15px]"></div>
+    <section class="font-kumbhFont rounded-b-[15px] bg-lightt flex flex-col items-center">
+      <img class="mt-[-3rem] border-[5px] border-lightt rounded-full" src="./images/image-victor.jpg" alt="" srcset="">
+      <h1 class="text-lg text-desaturatedBlue font-bold mt-4 mb-1">Victor Crest <span class="ml-1 text-darkGrey">26</span></h1>
+      <p class="text-sm text-greyishBlue mb-5">London</p>
+      <div class="h-[0.8px] w-full border-none bg-darkGrey mb-5"></div>
+      <div class="pb-5 w-full flex flex-row flex-nowrap justify-around items-center">
+        <p class="para-style "><span class="span-style ">80K</span> Followers</p>
+        <p class="para-style"><span class="span-style">803K</span> Likes</p>
+        <p class="para-style"><span class="span-style">1.4K</span> Photos</p>
+      </div>
+    </section>
+  </main>
+  
+  <div class="mt-4 attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ndickers</a>.
+  </div>
+</body>
+</html>

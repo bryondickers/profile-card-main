@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    :root{
+        --dark-cyan:185 75% 39%;
+        --desaturated-blue:229 23% 23%;
+        --dark-grayish-blue:227 10% 46%;
+        --dark-gray:0 0% 59%;
+        --white:0 0% 100%;
+    }
+
+}
+@layer components{
+    .para-style{
+        @apply text-sm text-greyishBlue text-center tracking-widest
+    }
+    .span-style{
+        @apply text-desaturatedBlue text-lg font-bold tracking-normal block
+    }
+}
